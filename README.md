@@ -1,9 +1,9 @@
-bostfys
+#bostfys
 ================================================
 build open source tools for yourself
 
 ------------------------------------------------
-build winehq
+#build winehq
   (more see wine.md)
   
 ------------------------------------------------
