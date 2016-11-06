@@ -3,18 +3,12 @@
 platform:x86_64-Linux-GNU
 prepare: git, gcc, make
 
-================================================
-
 #step 1. get the source code 
   git clone git://source.winehq.org/git/wine.git
   
-------------------------------------------------
-
 #step 2. build it
 cd ./wine/
 ./configure && make 
-
-------------------------------------------------
 
 # remake #001:
 * error: 
