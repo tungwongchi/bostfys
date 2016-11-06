@@ -8,7 +8,7 @@ prepare: git, gcc, make
   
 #step 2. build it
     $ cd ./wine/
-    $ ./configure && make 
+    $ ./configure && make install
 
 # remake #001:
     error: 
