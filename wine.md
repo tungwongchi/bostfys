@@ -14,7 +14,7 @@ prepare: git, gcc, make
     error: 
         Configuration fails with: Cannot build a 32-bit program, you need to install 32-bit development libraries.
     selution:
-        $ ./configure --enable-win64 && make
+        $ ./configure --enable-win64 && make install
 
 # remake #002:
     long time for wait :P
