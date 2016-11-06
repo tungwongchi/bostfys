@@ -18,3 +18,6 @@ prepare: git, gcc, make
 
 # remake #002:
     long time for wait :P
+
+# remake #003:
+    $ ln /usr/local/bin/wine64 /usr/local/bin/wine
