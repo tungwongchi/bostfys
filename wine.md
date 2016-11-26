@@ -17,7 +17,7 @@ prepare: git, gcc, make
         $ ./configure --enable-win64 && make install
 
 # remake #002:
-    long time for wait :P
+    long time wait for step 2 :P
 
 # remake #003:
     $ ln /usr/local/bin/wine64 /usr/local/bin/wine
