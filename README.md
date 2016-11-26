@@ -2,7 +2,7 @@
 build open source tools for yourself
 
 #build winehq
-    more see ./wine.md
+    more see [wine.md](./wine.md)
 
 #build openjdk9
     more see ./openjdk9.md
