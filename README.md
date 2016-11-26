@@ -5,4 +5,4 @@ build open source tools for yourself
     more see [wine.md](./wine.md)
 
 #build openjdk9
-    more see ./openjdk9.md
+    more see [openjdk9.md](./openjdk9.md)
