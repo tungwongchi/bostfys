@@ -10,7 +10,7 @@ prepare: hg, gcc, make
 
 #step 2. build it
     $ cd ./jdk9/
-    $ configure && make
+    $ configure && make all
 
 # remake #001:
     error: 
@@ -37,4 +37,4 @@ prepare: hg, gcc, make
         configure: error: Could not find ***! You might be able to fix this by running '($1)'.
     selution: 
         run ($1)
-        $ ($1) && configure && make
+        $ ($1) && configure && make all
