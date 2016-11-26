@@ -8,6 +8,10 @@ prepare: hg, gcc, make
     $ cd ./jdk9/
     $ ./get_source.sh
 
+#step 2. build it
+    $ cd ./jdk9/
+    $ configure && make install
+
 # remake #001:
     error: 
         ERROR: Need initial repository to use this script
@@ -25,5 +29,12 @@ prepare: hg, gcc, make
         jdk:   abort: stream ended unexpectedly (got 12 bytes, expected 12967)
         WARNING: jdk exited abnormally (255)
     selution:
-        try again
+        try again (i try many times :(,  )
         $ ./get_source.sh
+
+# remake #003:
+    error:
+        configure: error: Could not find ***! You might be able to fix this by running '($1)'.
+    selution: 
+        run ($1)
+        $ ($1) && configure && make install
