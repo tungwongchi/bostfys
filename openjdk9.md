@@ -29,7 +29,7 @@ prepare: hg, gcc, make
         jdk:   abort: stream ended unexpectedly (got 12 bytes, expected 12967)
         WARNING: jdk exited abnormally (255)
     selution:
-        try again (I tried many times :(,  )
+        try again (I tried many times :(  )
         $ ./get_source.sh
 
 # remake #003:
