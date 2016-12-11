@@ -6,3 +6,6 @@ build open source tools for yourself
 
 #build openjdk9
     more see [openjdk9.md](./openjdk9.md)
+
+#build binutils
+    more see [binutils.md](./binutils.md)
