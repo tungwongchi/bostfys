@@ -9,3 +9,6 @@ build open source tools for yourself
 
 #build binutils
     more see [binutils.md](./binutils.md)
+
+#build libevent
+    more see [libevent.md](./libevent.md)
