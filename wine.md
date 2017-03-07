@@ -12,12 +12,18 @@ prepare: git, gcc, make
 
 # remake #001:
     error: 
-        Configuration fails with: Cannot build a 32-bit program, you need to install 32-bit development libraries.
+        configure: error: X 32-bit development files not found. Wine will be built
+        without X support, which probably isn't what you want. You will need
+        to install 32-bit development packages of Xlib/Xfree86 at the very least.
+        Use the --without-x option if you really want this.
+
     selution:
-        $ ./configure --enable-win64 && make install
+        $ yum install libx11-devel.i686
 
 # remake #002:
-    long time wait for step 2 :P
-
-# remake #003:
-    $ ln /usr/local/bin/wine64 /usr/local/bin/wine
+    error: 
+        configure: error: FreeType 32-bit development files not found. Fonts will not be built.
+        Use the --without-freetype option if you really want this.
+    
+    selution:
+        $  yum install freetype-devel.i686
